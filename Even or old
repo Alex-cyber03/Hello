@@ -1,0 +1,27 @@
+C++ Code for Even or Odd Program
+
+
+
+#include <iostream>
+
+int main()
+{
+    //Varible
+    int number;
+    //Loop
+    while (true) 
+    {
+
+        //Output
+        std::cout << "Enter a number :";
+        //input
+        std::cin >> number;
+        //Branching statement 
+        if (number % 2 == 0)
+            std::cout << " Number is Even \n "; else
+        {
+            std::cout << "The number is Odd";
+        }
+    }
+        return 0;
+}
